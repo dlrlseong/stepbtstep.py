@@ -11,3 +11,13 @@ for i in range(0, 10):
         b.append(n)
 
 print(len(b))
+
+# n=[0 for i in range(42)]
+# for _ in range(10):
+#   a=int(input())
+#   n[a%42]=1
+# ans=0
+# for i in n:
+#   if i==1:
+#     ans+=1
+# print(ans)
