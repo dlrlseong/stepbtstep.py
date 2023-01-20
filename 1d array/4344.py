@@ -5,5 +5,10 @@ for _ in range(N):
     TestCase.remove(TestCase[0])
     Average = sum(TestCase) / len(TestCase)
     numberOfStudents = len(TestCase)
-    TestCase.sort()
-    print(TestCase)
+    cnt = 0
+    for test in TestCase:
+        if test > Average:
+            cnt += 1
+    answer = cnt/numberOfStudents*100
+    print("%.3f%%" %(cnt/numberOfStudents*100))
+    print(f"{answer:.3f}%")
