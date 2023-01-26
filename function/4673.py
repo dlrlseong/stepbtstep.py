@@ -10,4 +10,3 @@ self_num = sorted(numbers - generated_num)
 
 for i in self_num:
     print(i)
-

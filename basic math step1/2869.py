@@ -1,5 +1,4 @@
 import math
 A, B, V = map(int, input().split())
-V = V - A
-n = math.ceil(V / (A-B))
+n = math.ceil((V-A) / (A-B))
 print(n+1)

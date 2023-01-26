@@ -10,5 +10,5 @@ for _ in range(N):
         if test > Average:
             cnt += 1
     answer = cnt/numberOfStudents*100
-    print("%.3f%%" %(cnt/numberOfStudents*100))
+    # print("%.3f%%" % (cnt/numberOfStudents*100))
     print(f"{answer:.3f}%")
